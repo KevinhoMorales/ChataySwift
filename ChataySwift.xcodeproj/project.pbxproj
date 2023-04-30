@@ -53,7 +53,7 @@
 		2AFD2DA729FE630E00457D62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2DA629FE630E00457D62 /* ContentView.swift */; };
 		2AFD2DA929FE631300457D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD2DA829FE631300457D62 /* Assets.xcassets */; };
 		2AFD2DAC29FE631300457D62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD2DAB29FE631300457D62 /* Preview Assets.xcassets */; };
-		2AFD2DAF29FE631300457D62 /* Chatay-watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2AFD2DA229FE630D00457D62 /* Chatay-watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2AFD2DAF29FE631300457D62 /* Chatay.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2AFD2DA229FE630D00457D62 /* Chatay.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2AFD2DB429FE633F00457D62 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7929FE481B00457D62 /* HistoryView.swift */; };
 		2AFD2DB529FE633F00457D62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6329FE3B9300457D62 /* MainView.swift */; };
 		2AFD2DB629FE633F00457D62 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7E29FE4B4100457D62 /* AnswerView.swift */; };
@@ -83,7 +83,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				2AFD2DAF29FE631300457D62 /* Chatay-watchOS Watch App.app in Embed Watch Content */,
+				2AFD2DAF29FE631300457D62 /* Chatay.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,7 +116,7 @@
 		2AFD2D8929FE5BE600457D62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AFD2D8B29FE5BE800457D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AFD2D8E29FE5BE800457D62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2AFD2DA229FE630D00457D62 /* Chatay-watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chatay-watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFD2DA229FE630D00457D62 /* Chatay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFD2DA429FE630E00457D62 /* Chatay_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatay_watchOSApp.swift; sourceTree = "<group>"; };
 		2AFD2DA629FE630E00457D62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AFD2DA829FE631300457D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 				2AFD2D2429FE39AC00457D62 /* Chatay-iOS.app */,
 				2AFD2D4A29FE39F600457D62 /* Chatay-mac0S.app */,
 				2AFD2D8529FE5BE600457D62 /* Chatay-tv0S.app */,
-				2AFD2DA229FE630D00457D62 /* Chatay-watchOS Watch App.app */,
+				2AFD2DA229FE630D00457D62 /* Chatay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -405,7 +405,7 @@
 				2AFD2DB729FE638200457D62 /* OpenAISwift */,
 			);
 			productName = "Chatay-watchOS Watch App";
-			productReference = 2AFD2DA229FE630D00457D62 /* Chatay-watchOS Watch App.app */;
+			productReference = 2AFD2DA229FE630D00457D62 /* Chatay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1126,7 +1126,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Chatay-watchOS";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.kevinhomorales.chatayswiftios;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1138,7 +1137,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.chatayswiftios.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Chatay;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1202,7 +1201,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Chatay-watchOS";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.kevinhomorales.chatayswiftios;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1213,7 +1211,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.chatayswiftios.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Chatay;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
