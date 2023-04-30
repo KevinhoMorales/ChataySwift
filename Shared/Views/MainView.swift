@@ -27,7 +27,9 @@ struct MainView: View {
             Spacer()
             HStack {
                 TextField("Search...", text: $chatText)
+                    #if os(iOS)
                     .textFieldStyle(.roundedBorder)
+                    #endif
                 Button {
                     isSearching = true
                     performSearch()
@@ -36,10 +38,12 @@ struct MainView: View {
                         .font(.title)
                         .rotationEffect(Angle(degrees: 45))
                 }
+                #if os(iOS)
                 .buttonStyle(.borderless)
+                #endif
                 .tint(.blue)
                 .disabled(!isFormValid)
-
+                
             }
         }.padding()
             .overlay {
