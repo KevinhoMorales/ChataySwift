@@ -51,6 +51,7 @@ struct MainView: View {
                     ProgressView("LOADING ANSWER")
                 }
             }
+            .navigationTitle("Chatay")
     }
     
     private func performSearch() {
