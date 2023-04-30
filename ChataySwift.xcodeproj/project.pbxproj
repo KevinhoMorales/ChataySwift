@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AFD2D2829FE39AC00457D62 /* Chatay_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D2729FE39AC00457D62 /* Chatay_iOSApp.swift */; };
+		2AFD2D2A29FE39AC00457D62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D2929FE39AC00457D62 /* ContentView.swift */; };
+		2AFD2D2C29FE39AE00457D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD2D2B29FE39AE00457D62 /* Assets.xcassets */; };
+		2AFD2D2F29FE39AE00457D62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD2D2E29FE39AE00457D62 /* Preview Assets.xcassets */; };
+		2AFD2D4D29FE39F600457D62 /* Chatay_mac0SApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D4C29FE39F600457D62 /* Chatay_mac0SApp.swift */; };
+		2AFD2D4F29FE39F600457D62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D4E29FE39F600457D62 /* ContentView.swift */; };
+		2AFD2D5129FE39F700457D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD2D5029FE39F700457D62 /* Assets.xcassets */; };
+		2AFD2D5429FE39F700457D62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFD2D5329FE39F700457D62 /* Preview Assets.xcassets */; };
+		2AFD2D5C29FE3A5700457D62 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2AFD2D5B29FE3A5700457D62 /* OpenAISwift */; };
+		2AFD2D5F29FE3A9300457D62 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2AFD2D5E29FE3A9300457D62 /* OpenAISwift */; };
+		2AFD2D6129FE3B2000457D62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6029FE3B2000457D62 /* Constants.swift */; };
+		2AFD2D6229FE3B8700457D62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6029FE3B2000457D62 /* Constants.swift */; };
+		2AFD2D6429FE3B9300457D62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6329FE3B9300457D62 /* MainView.swift */; };
+		2AFD2D6529FE3B9700457D62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6329FE3B9300457D62 /* MainView.swift */; };
+		2AFD2D6829FE3CC600457D62 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6729FE3CC600457D62 /* String+Extensions.swift */; };
+		2AFD2D6929FE3FDC00457D62 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6729FE3CC600457D62 /* String+Extensions.swift */; };
+		2AFD2D6C29FE3FED00457D62 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6B29FE3FED00457D62 /* Query.swift */; };
+		2AFD2D6D29FE3FED00457D62 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6B29FE3FED00457D62 /* Query.swift */; };
+		2AFD2D7029FE41CB00457D62 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6F29FE41CB00457D62 /* CoreDataManager.swift */; };
+		2AFD2D7129FE41CB00457D62 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D6F29FE41CB00457D62 /* CoreDataManager.swift */; };
+		2AFD2D7429FE42A800457D62 /* HistoryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7229FE42A800457D62 /* HistoryModel.xcdatamodeld */; };
+		2AFD2D7529FE42A800457D62 /* HistoryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7229FE42A800457D62 /* HistoryModel.xcdatamodeld */; };
+		2AFD2D7729FE442C00457D62 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7629FE442C00457D62 /* Model.swift */; };
+		2AFD2D7829FE442C00457D62 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7629FE442C00457D62 /* Model.swift */; };
+		2AFD2D7A29FE481B00457D62 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7929FE481B00457D62 /* HistoryView.swift */; };
+		2AFD2D7B29FE481B00457D62 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7929FE481B00457D62 /* HistoryView.swift */; };
+		2AFD2D7F29FE4B4100457D62 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7E29FE4B4100457D62 /* AnswerView.swift */; };
+		2AFD2D8029FE4B4100457D62 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2D7E29FE4B4100457D62 /* AnswerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AFD2D2429FE39AC00457D62 /* Chatay-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chatay-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFD2D2729FE39AC00457D62 /* Chatay_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatay_iOSApp.swift; sourceTree = "<group>"; };
+		2AFD2D2929FE39AC00457D62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AFD2D2B29FE39AE00457D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFD2D2E29FE39AE00457D62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AFD2D4A29FE39F600457D62 /* Chatay-mac0S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chatay-mac0S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFD2D4C29FE39F600457D62 /* Chatay_mac0SApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatay_mac0SApp.swift; sourceTree = "<group>"; };
+		2AFD2D4E29FE39F600457D62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AFD2D5029FE39F700457D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFD2D5329FE39F700457D62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AFD2D5529FE39F700457D62 /* Chatay_mac0S.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chatay_mac0S.entitlements; sourceTree = "<group>"; };
+		2AFD2D6029FE3B2000457D62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2AFD2D6329FE3B9300457D62 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2AFD2D6729FE3CC600457D62 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2AFD2D6B29FE3FED00457D62 /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		2AFD2D6F29FE41CB00457D62 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2AFD2D7329FE42A800457D62 /* HistoryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistoryModel.xcdatamodel; sourceTree = "<group>"; };
+		2AFD2D7629FE442C00457D62 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2AFD2D7929FE481B00457D62 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		2AFD2D7E29FE4B4100457D62 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFD2D2129FE39AC00457D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFD2D5C29FE3A5700457D62 /* OpenAISwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFD2D4729FE39F600457D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFD2D5F29FE3A9300457D62 /* OpenAISwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFD2D1929FE396200457D62 = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D5929FE3A0100457D62 /* Shared */,
+				2AFD2D2629FE39AC00457D62 /* Chatay-iOS */,
+				2AFD2D4B29FE39F600457D62 /* Chatay-mac0S */,
+				2AFD2D2529FE39AC00457D62 /* Products */,
+				2AFD2D5D29FE3A9300457D62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFD2D2529FE39AC00457D62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D2429FE39AC00457D62 /* Chatay-iOS.app */,
+				2AFD2D4A29FE39F600457D62 /* Chatay-mac0S.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFD2D2629FE39AC00457D62 /* Chatay-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D2729FE39AC00457D62 /* Chatay_iOSApp.swift */,
+				2AFD2D2929FE39AC00457D62 /* ContentView.swift */,
+				2AFD2D2B29FE39AE00457D62 /* Assets.xcassets */,
+				2AFD2D2D29FE39AE00457D62 /* Preview Content */,
+			);
+			path = "Chatay-iOS";
+			sourceTree = "<group>";
+		};
+		2AFD2D2D29FE39AE00457D62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D2E29FE39AE00457D62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AFD2D4B29FE39F600457D62 /* Chatay-mac0S */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D4C29FE39F600457D62 /* Chatay_mac0SApp.swift */,
+				2AFD2D4E29FE39F600457D62 /* ContentView.swift */,
+				2AFD2D5029FE39F700457D62 /* Assets.xcassets */,
+				2AFD2D5529FE39F700457D62 /* Chatay_mac0S.entitlements */,
+				2AFD2D5229FE39F700457D62 /* Preview Content */,
+			);
+			path = "Chatay-mac0S";
+			sourceTree = "<group>";
+		};
+		2AFD2D5229FE39F700457D62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D5329FE39F700457D62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AFD2D5929FE3A0100457D62 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D7D29FE482B00457D62 /* Utils */,
+				2AFD2D6E29FE41A700457D62 /* Managers */,
+				2AFD2D6A29FE3FE100457D62 /* Model */,
+				2AFD2D6629FE3CB400457D62 /* Extensions */,
+				2AFD2D7C29FE482100457D62 /* Views */,
+				2AFD2D7229FE42A800457D62 /* HistoryModel.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2AFD2D5D29FE3A9300457D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AFD2D6629FE3CB400457D62 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D6729FE3CC600457D62 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AFD2D6A29FE3FE100457D62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D6B29FE3FED00457D62 /* Query.swift */,
+				2AFD2D7629FE442C00457D62 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AFD2D6E29FE41A700457D62 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D6F29FE41CB00457D62 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2AFD2D7C29FE482100457D62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D6329FE3B9300457D62 /* MainView.swift */,
+				2AFD2D7929FE481B00457D62 /* HistoryView.swift */,
+				2AFD2D7E29FE4B4100457D62 /* AnswerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AFD2D7D29FE482B00457D62 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD2D6029FE3B2000457D62 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AFD2D2329FE39AC00457D62 /* Chatay-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFD2D3029FE39AE00457D62 /* Build configuration list for PBXNativeTarget "Chatay-iOS" */;
+			buildPhases = (
+				2AFD2D2029FE39AC00457D62 /* Sources */,
+				2AFD2D2129FE39AC00457D62 /* Frameworks */,
+				2AFD2D2229FE39AC00457D62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chatay-iOS";
+			packageProductDependencies = (
+				2AFD2D5B29FE3A5700457D62 /* OpenAISwift */,
+			);
+			productName = "Chatay-iOS";
+			productReference = 2AFD2D2429FE39AC00457D62 /* Chatay-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AFD2D4929FE39F600457D62 /* Chatay-mac0S */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFD2D5629FE39F700457D62 /* Build configuration list for PBXNativeTarget "Chatay-mac0S" */;
+			buildPhases = (
+				2AFD2D4629FE39F600457D62 /* Sources */,
+				2AFD2D4729FE39F600457D62 /* Frameworks */,
+				2AFD2D4829FE39F600457D62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chatay-mac0S";
+			packageProductDependencies = (
+				2AFD2D5E29FE3A9300457D62 /* OpenAISwift */,
+			);
+			productName = "Chatay-mac0S";
+			productReference = 2AFD2D4A29FE39F600457D62 /* Chatay-mac0S.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AFD2D1A29FE396200457D62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2AFD2D2329FE39AC00457D62 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2AFD2D4929FE39F600457D62 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2AFD2D1D29FE396200457D62 /* Build configuration list for PBXProject "ChataySwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AFD2D1929FE396200457D62;
+			packageReferences = (
+				2AFD2D5A29FE3A5700457D62 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
+			productRefGroup = 2AFD2D2529FE39AC00457D62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AFD2D2329FE39AC00457D62 /* Chatay-iOS */,
+				2AFD2D4929FE39F600457D62 /* Chatay-mac0S */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AFD2D2229FE39AC00457D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFD2D2F29FE39AE00457D62 /* Preview Assets.xcassets in Resources */,
+				2AFD2D2C29FE39AE00457D62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFD2D4829FE39F600457D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFD2D5429FE39F700457D62 /* Preview Assets.xcassets in Resources */,
+				2AFD2D5129FE39F700457D62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFD2D2029FE39AC00457D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFD2D7729FE442C00457D62 /* Model.swift in Sources */,
+				2AFD2D6829FE3CC600457D62 /* String+Extensions.swift in Sources */,
+				2AFD2D2A29FE39AC00457D62 /* ContentView.swift in Sources */,
+				2AFD2D6429FE3B9300457D62 /* MainView.swift in Sources */,
+				2AFD2D6C29FE3FED00457D62 /* Query.swift in Sources */,
+				2AFD2D7429FE42A800457D62 /* HistoryModel.xcdatamodeld in Sources */,
+				2AFD2D6129FE3B2000457D62 /* Constants.swift in Sources */,
+				2AFD2D7F29FE4B4100457D62 /* AnswerView.swift in Sources */,
+				2AFD2D7A29FE481B00457D62 /* HistoryView.swift in Sources */,
+				2AFD2D7029FE41CB00457D62 /* CoreDataManager.swift in Sources */,
+				2AFD2D2829FE39AC00457D62 /* Chatay_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFD2D4629FE39F600457D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFD2D7829FE442C00457D62 /* Model.swift in Sources */,
+				2AFD2D6929FE3FDC00457D62 /* String+Extensions.swift in Sources */,
+				2AFD2D4F29FE39F600457D62 /* ContentView.swift in Sources */,
+				2AFD2D6529FE3B9700457D62 /* MainView.swift in Sources */,
+				2AFD2D6D29FE3FED00457D62 /* Query.swift in Sources */,
+				2AFD2D7529FE42A800457D62 /* HistoryModel.xcdatamodeld in Sources */,
+				2AFD2D6229FE3B8700457D62 /* Constants.swift in Sources */,
+				2AFD2D8029FE4B4100457D62 /* AnswerView.swift in Sources */,
+				2AFD2D7B29FE481B00457D62 /* HistoryView.swift in Sources */,
+				2AFD2D7129FE41CB00457D62 /* CoreDataManager.swift in Sources */,
+				2AFD2D4D29FE39F600457D62 /* Chatay_mac0SApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AFD2D1E29FE396200457D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2AFD2D1F29FE396200457D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2AFD2D3129FE39AE00457D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"Chatay-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S22W76BBZ;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chatay;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.chatayswiftios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AFD2D3229FE39AE00457D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Chatay-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S22W76BBZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chatay;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.chatayswiftios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AFD2D5729FE39F700457D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "Chatay-mac0S/Chatay_mac0S.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"Chatay-mac0S/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S22W76BBZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chatay;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.chatayswiftmacos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2AFD2D5829FE39F700457D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "Chatay-mac0S/Chatay_mac0S.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Chatay-mac0S/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S22W76BBZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chatay;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.chatayswiftmacos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFD2D1D29FE396200457D62 /* Build configuration list for PBXProject "ChataySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFD2D1E29FE396200457D62 /* Debug */,
+				2AFD2D1F29FE396200457D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFD2D3029FE39AE00457D62 /* Build configuration list for PBXNativeTarget "Chatay-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFD2D3129FE39AE00457D62 /* Debug */,
+				2AFD2D3229FE39AE00457D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFD2D5629FE39F700457D62 /* Build configuration list for PBXNativeTarget "Chatay-mac0S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFD2D5729FE39F700457D62 /* Debug */,
+				2AFD2D5829FE39F700457D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AFD2D5A29FE3A5700457D62 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AFD2D5B29FE3A5700457D62 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AFD2D5A29FE3A5700457D62 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+		2AFD2D5E29FE3A9300457D62 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AFD2D5A29FE3A5700457D62 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2AFD2D7229FE42A800457D62 /* HistoryModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AFD2D7329FE42A800457D62 /* HistoryModel.xcdatamodel */,
+			);
+			currentVersion = 2AFD2D7329FE42A800457D62 /* HistoryModel.xcdatamodel */;
+			path = HistoryModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AFD2D1A29FE396200457D62 /* Project object */;
+}
